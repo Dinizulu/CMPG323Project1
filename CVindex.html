@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>TechnicalCV</title>
+    <link rel="stylesheet" href="CVstyler.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  </head>
+  <body onload="typeWrite()">
+    <script type="text/javascript">
+      var i =0;
+      var txt = 'Welcome to the online resume Of Mr Dinizulu';
+      var speed = 120;
+
+      function typeWrite(){
+        if(i < txt.length){
+          document.getElementById('Welcome').innerHTML += txt.charAt(i);
+          i++;
+          setTimeout(typeWrite,speed);
+        }
+      }
+    </script>
+
+    <header>
+
+    <section class="Home" id="home">
+      <h1 id="Welcome"></h1>
+
+      <script type="text/javascript">
+				function Show(){
+					document.getElementById('Side').classList.toggle('active');
+				}
+			</script>
+      <nav>
+      <ul id="Menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    </section>
+
+  </header>
+
+    <section class="About" id="about">
+      <div class="Heading">
+        <h2>About Me</h2>
+      </div>
+      <div class="AboutCnt">
+        <div class="CntBox">
+          <h3>I Am In My Final Year As An IT Undergraduate</h3>
+          <p>Jabulane is people's person he always find a way to make everyone him feel at easy and confident because he always find a way to adapt without offending or looking down to others.
+            He is a hard working individual who is always focused and enjoys to work with groups and individually, he also knows well that two heads are better one and one of the best routes to progress is objective accomplishment for better self-management.
+            He is currently in his last year as an undergraduate in BSc Information technology under the VAAL campus.
+            He takes his inspiration from those who work hard to show others that failure and disappointment are not obstacles in achieving any goal but those are motivations, meaning putting effort into anything you do regardless of outcomes you may get enables you to always know that you are one step ahead to success.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="Skills" id="skills">
+      <div class="main">
+        <h2>My Skills</h2>
+          <h3>HTML</h3>
+          <div class="Cont">
+            <div class="Skill html"></div>
+          </div>
+          <h3>CSS</h3>
+          <div class="Cont">
+            <div class="Skill css"></div>
+          </div>
+          <h3>Java Script</h3>
+          <div class="Cont">
+            <div class="Skill javascript"></div>
+          </div>
+          <h3>Java Object Oriented</h3>
+          <div class="Cont">
+            <div class="Skill java"></div>
+          </div>
+          <h3>C# ASP.net Framework</h3>
+          <div class="Cont">
+            <div class="Skill asp"></div>
+          </div>
+          <h3>Data Visualization</h3>
+          <div class="Cont">
+            <div class="Skill data"></div>
+          </div>
+          <h3>Databases</h3>
+          <div class="Cont">
+            <div class="Skill database"></div>
+          </div>
+      </div>
+    </section>
+
+    <section class="Projects" id="projects">
+      <h1>Watch The Space...</h1>
+      <h2>Project Worked On</h2>
+    </section>
+
+    <section class="Contact" id="contact">
+  <div class="heading">
+    <h2>Contact</h2>
+    <p>Your Feedback Will Be Highly Appreciated</p>
+  </div>
+  <div class="ContactCnt">
+    <div class="ContactInfo">
+      <h3>Contact Info</h3>
+      <div class="AddressBox">
+        <div>
+          <i class="fa fa-map-marker"></i>
+        </div>
+        <div class="Text">
+          <h3>Address</h3>
+          <p>Khutsong South <br> Carletonville <br> 2499</p>
+        </div>
+      </div>
+      <div class="CellBox">
+        <div class="icon">
+          <i class="fa fa-phone"></i>
+        </div>
+        <div class="Text">
+          <h3>Cell Number</h3>
+          <p>072 036 3761</p>
+        </div>
+      </div>
+      <div class="EmailBox">
+        <div class="icon">
+          <i class="fa fa-envelope-o"></i>
+        </div>
+        <div class="Text">
+          <h3>Email</h3>
+          <p>j.dinizulu@gmail.com</p>
+        </div>
+      </div>
+    </div>
+    <div class="MsgBox">
+      <form id="form">
+        <h3>Send Message</h3>
+        <input type="text" name="" placeholder="Full Name">
+        <input type="text" name="" id="email" placeholder="Enter Email">
+        <span id="word"></span>
+        <textarea placeholder="Comments"></textarea>
+        <input type="submit" value="Send">
+      </form>
+    </div>
+  </div>
+</section>
+  </body>
+</html>
