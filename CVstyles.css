@@ -89,15 +89,18 @@ nav{
 }
 img{
   max-width: 100%;
-  height: inherit;
+  height: 600px;
   margin-left: 100px;
-  top: 0;
+  top: 10px;
+  position:absolute;
+  box-shadow: 0px 5px;
+  color: inherit;
 }
 .CntBox{
   font-family: sans-serif;
   width: 50%;
   align-items: center;
-  padding-top: 40px;
+  padding-top: 20px;
   text-align: justify;
   color: black;
 }
@@ -263,6 +266,7 @@ h2{
 }
 .MsgBox form label{
   right: 50px;
+  color: red;
 }
 .ContactInfo .AddressBox i{
   display: flex;
