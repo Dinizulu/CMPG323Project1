@@ -1,0 +1,279 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+.Home{
+  position: relative;
+  min-height: 100vh;
+  background: url(https://source.unsplash.com/user/Dinizulu/Rpz-455NaQw);
+  background-size: cover;
+}
+h1{
+  font-style: oblique;
+  color: blue;
+  size: 5em;
+  font-weight: 700;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%) translateY(-50%);
+}
+.Home h1{
+  font-size: 2.7em;
+  font-weight: 700;
+}
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+nav{
+  position: fixed;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  text-transform: uppercase;
+  padding: 10px 40px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  top: 0;
+  right: 0px;
+  width: 100%;
+  padding: 10px 40px;
+  box-shadow:  3px 3px 3px rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+#Menu{
+  display: flex;
+  left: 0;
+}
+#Menu li a{
+  padding: 10px 15px;
+  font-size: 14px;
+}
+#Menu li a:hover{
+  background-color: #292929;
+  color: #FFFFFF !important;
+  font-weight: 700;
+  transition: 0.5s;
+}
+
+/* About Styling*/
+.About{
+  position: relative;
+  min-height: 100vh;
+  background: url(https://source.unsplash.com/user/Dinizulu/2gvzKeuh4MM);
+  background-size: cover;
+  justify-content: space-between;
+  padding: 50px 5% 0px 5%;
+}
+.CntBox{
+  font-family: sans-serif;
+  width: 50%;
+  align-items: center;
+  padding-top: 40px;
+}
+.Me{
+  float: left;
+  left: 0;
+  width 40%;
+  min-height: 100vh;
+}
+
+/*Skills Styling*/
+.Skills{
+  position: relative;
+  min-height: 100vh;
+  background: url(https://source.unsplash.com/user/Dinizulu/2gvzKeuh4MM);
+  background-size: cover;
+}
+h2{
+  text-align: center;
+  font-style: italic;
+  font-size: 30px;
+  text-decoration: underline;
+  padding-top: 40px;
+}
+.main{
+  margin-top: 0;
+}
+.main h3{
+  margin-top: 10px;
+  margin-bottom: 5px;
+  margin-left: 25%;
+  font-style: italic;
+}
+.Cont{
+  width: 50%;
+  background-color: #D2D7D3;
+  margin-left: 25%;
+  border-radius: 5px;
+}
+.Skill{
+  text-align: right;
+  padding: 10px;
+  padding-bottom: 10px;
+  color: white;
+  border-radius: 5px;
+}
+.html{
+  width: 68%;
+  background-color: #0000cc;
+}
+.css{
+  width: 60%;
+  background-color: #009933;
+}
+.javascript{
+  width: 35%;
+  background-color: #00e6e6;
+}
+.java{
+  width: 50%;
+  background-color: #4d3319;
+}
+.asp{
+  width: 58%;
+  background-color: #cc0099;
+}
+.data{
+  width: 70%;
+  background-color: #e60000;
+}
+.database{
+  width: 63%;
+  background-color: #ffff00;
+}
+/*Projects Styling*/
+.Projects{
+  position: relative;
+  min-height: 100vh;
+  background: url(https://source.unsplash.com/user/Dinizulu/YLxVlTsCqs8);
+  background-size: cover;
+}
+.Projects h1{
+  font-size: 45px;
+  font-style: italic;
+  font-weight: 900;
+  color: #fff;
+}
+.Projects h2{
+  color: white;
+}
+
+/*Contact Styler*/
+.Contact{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: url(https://source.unsplash.com/user/Dinizulu/JjSoCnYrpno);
+  background-size: cover;
+  box-sizing: border-box;
+}
+#form{
+  margin-top: 40px;
+}
+.MsgBox form h3, .ContactInfo h3{
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.heading h2{
+  color: #fff;
+  font-style: italic;
+}
+.heading p{
+  text-align: center;
+  padding-top: 25px;
+  font-size: 25px;
+  color: #fff;
+}
+.MsgBox form input, .MsgBox form textarea{
+  margin-bottom: 20px;
+  padding: 15px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  background: #222;
+  color: #fff;
+}
+.MsgBox form textarea{
+	min-height: 120px;
+}
+.MsgBox{
+  right: 50px;
+  top: 100px;
+  position: absolute;
+  min-width: 50%;
+  min-height: 100vh;
+  float: right;
+  justify-content: left;
+}
+.MsgBox form{
+  display: flex;
+  flex-direction: column;
+}
+.MsgBox form input::placeholder,
+.MsgBox form textarea::placeholder{
+	color: #999;
+}
+.MsgBox form input[type="submit"]{
+	max-width: 100px;
+	background: #2196f3;
+	cursor: pointer;
+	letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+.ContactInfo .AddressBox i{
+  display: flex;
+  padding-top: 4px;
+  color: #fff;
+  min-width: 40px;
+  font-size: 24px;
+  left: 50px;
+}
+.ContactInfo .AddressBox .Text{
+  display: flex;
+  margin: 0px;
+  font-size: 14px;
+  color: blue;
+  flex-direction: column;
+  font-weight: 300;
+}
+.ContactInfo .CellBox i{
+  display: flex;
+  padding-top: 4px;
+  color: #fff;
+  min-width: 40px;
+  font-size: 24px;
+  left: 50px;
+}
+.ContactInfo .CellBox .Text{
+  display: flex;
+  margin: 0px;
+  font-size: 14px;
+  color: blue;
+  flex-direction: column;
+  font-weight: 300;
+}
+.ContactInfo .EmailBox i{
+  display: flex;
+  padding-top: 4px;
+  color: #fff;
+  min-width: 40px;
+  font-size: 24px;
+  left: 50px;
+}
+.ContactInfo .EmailBox .Text{
+  display: flex;
+  margin: 0px;
+  font-size: 14px;
+  color: blue;
+  flex-direction: column;
+  font-weight: 300;
+}
