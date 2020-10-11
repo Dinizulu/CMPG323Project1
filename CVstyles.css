@@ -4,6 +4,9 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
+body{
+  height: 100%;
+}
 .Home{
   width: 100%;
   position: relative;
@@ -13,9 +16,9 @@
 }
 h1{
   font-style: oblique;
-  color: blue;
-  size: 5em;
-  font-weight: 700;
+  color: lime;
+  size: 6em;
+  font-weight: 900;
   text-align: center;
   top: 50%;
   left: 50%;
@@ -77,14 +80,16 @@ nav{
   width: 50%;
   align-items: center;
   padding-top: 40px;
+  text-align: justify;
+  color: black;
 }
+
 .Me{
   float: left;
   left: 0;
   width 40%;
   min-height: 100vh;
 }
-
 /*Skills Styling*/
 .Skills{
   position: relative;
@@ -279,4 +284,110 @@ h2{
   color: blue;
   flex-direction: column;
   font-weight: 300;
+}
+@media(max-width:900px){
+  .Home{
+    background-size: 850px;
+  }
+  .h1{
+    font-style: oblique;
+    color: lime;
+    size: 1em;
+    font-weight: 150;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%) translateY(-50%);
+  }
+  .Home h1{
+    font-size: 2em;
+    font-weight: 400;
+  }
+  nav{
+    position: fixed;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-transform: uppercase;
+    padding: 1px 2px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    top: 0;
+    right: 0px;
+    width: 100%;
+    padding: 1px 2px;
+    box-shadow:  1.5px 1.5px 1.5px rgba(0, 0, 0, 0.5);
+    z-index: 1;
+  }
+  #Menu li a{
+    padding: 5px 10px;
+    font-size: 12px;
+  }
+  .About{
+    height: auto;
+  }
+  .CntBox{
+    flex-wrap: wrap;
+  }
+  .CntBox h3{
+    font-size: 0.8em;
+  }
+  .CntBox p{
+    font-size: 0.8em;
+  }
+  .CntBox{
+    font-family: sans-serif;
+    width: 50%;
+    align-items: center;
+    padding-top: 10px;
+    text-align: justify;
+    color: black;
+  }
+  h2{
+    text-align: center;
+    font-style: italic;
+    font-size: 24px;
+    text-decoration: underline;
+    padding-top: 22px;
+  }
+  .Skills{
+    height: auto;
+  }
+  .Projects{
+    height: 100vh;
+  }
+  .Contact{
+    height: 100vh;
+  }
+  .MsgBox form h3, .ContactInfo h3{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 200;
+    margin-bottom: 7px;
+  }
+  .heading p{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 18px;
+    color: #fff;
+  }
+  .MsgBox{
+    right: 50px;
+    top: 50px;
+    position: absolute;
+    min-width: 50%;
+    min-height: auto;
+    float: right;
+    justify-content: left;
+  }
+  .MsgBox form input, .MsgBox form textarea{
+    margin-bottom: 10px;
+    padding: 7.5px;
+    font-size: 12px;
+    border: none;
+    outline: none;
+    background: #222;
+    color: #fff;
+  }
 }
