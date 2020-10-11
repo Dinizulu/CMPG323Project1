@@ -5,6 +5,8 @@
     <title>TechnicalCV</title>
     <link rel="stylesheet" href="CVstyles.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+    <script src="submit.js"></script>
   </head>
   <body onload="typeWrite()">
     <script type="text/javascript">
@@ -139,13 +141,13 @@
       </div>
     </div>
     <div class="MsgBox">
-      <form id="form" method="post" action="index.php">
+      <form id="form" action="https://formspree.io/j.dinizulu@gmail.com" method="post">
         <h3>Send Message</h3>
-        <input type="text" name="Names" placeholder="Full Name">
-        <input type="text" name="EmailAdd" id="email" placeholder="Enter Email">
-        <span id="word"></span>
-        <textarea placeholder="Comments" name="Message"></textarea>
-        <input type="submit" value="Send">
+        <input type="Names" placeholder="Full Name" class="Names">
+        <input type="Email" placeholder="Enter Email" class="Email">
+        <textarea placeholder="Comments" name="Message" class="Email"></textarea>
+        <input type="submit" class="submit">
+        <label for="warning" class="Error"></label>
       </form>
     </div>
   </div>
