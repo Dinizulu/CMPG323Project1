@@ -5,10 +5,11 @@
   scroll-behavior: smooth;
 }
 .Home{
+  width: 100%;
   position: relative;
   min-height: 100vh;
   background: url(https://source.unsplash.com/user/Dinizulu/Rpz-455NaQw);
-  background-size: cover;
+  background-size: 100% 100%;
 }
 h1{
   font-style: oblique;
@@ -67,9 +68,9 @@ nav{
   position: relative;
   min-height: 100vh;
   background: url(https://source.unsplash.com/user/Dinizulu/2gvzKeuh4MM);
-  background-size: cover;
   justify-content: space-between;
-  padding: 50px 5% 0px 5%;
+  width: 100%;
+  background-size: 100% 100%;
 }
 .CntBox{
   font-family: sans-serif;
@@ -89,7 +90,8 @@ nav{
   position: relative;
   min-height: 100vh;
   background: url(https://source.unsplash.com/user/Dinizulu/2gvzKeuh4MM);
-  background-size: cover;
+  background-size: 100% 100%;
+  width: 100%;
 }
 h2{
   text-align: center;
@@ -153,7 +155,8 @@ h2{
   position: relative;
   min-height: 100vh;
   background: url(https://source.unsplash.com/user/Dinizulu/YLxVlTsCqs8);
-  background-size: cover;
+  width: 100%;
+  background-size: 100% 100%;
 }
 .Projects h1{
   font-size: 45px;
@@ -171,7 +174,7 @@ h2{
   width: 100%;
   height: 100vh;
   background: url(https://source.unsplash.com/user/Dinizulu/JjSoCnYrpno);
-  background-size: cover;
+  background-size: 100% 100%;
   box-sizing: border-box;
 }
 #form{
