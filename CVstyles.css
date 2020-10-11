@@ -317,6 +317,17 @@ h2{
   flex-direction: column;
   font-weight: 300;
 }
+.BtND a{
+  display: block;
+  background: #00A9D4;
+  color: #fff;
+  padding: 15px;
+  cursor: pointer;
+  text-decoration: none;
+  width: 150px;
+  border-radius: 5px;
+  padding-top: 10px;
+}
 @media(max-width:900px){
   .Home{
     background-size: 850px;
